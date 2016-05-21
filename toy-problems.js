@@ -7,7 +7,15 @@ Write a function that takes an array of integers and returns the sum of the inte
 plusOneSum([1, 2, 3, 4]); // 14
 
 */
+function plusOneSum(arr) {
+  var num = 0
+  for (var i = 0; i < arr.length; i++) {
+    num = num + (arr[i] + 1);
+  }
+  console.log(num);
+}
 
+plusOneSum([1, 2, 3, 4]);
 
 
 /*
@@ -17,7 +25,9 @@ Write a function that accepts a multi dimensional array and returns a flattened 
 flatten([1, 2, [3, [4], 5, 6], 7]) // [1, 2, 3, 4, 5, 6, 7]
 
 */
-
+function flatten(arr) {
+  var str = arr.
+}
 
 
 /*
